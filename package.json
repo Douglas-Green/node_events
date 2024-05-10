@@ -1,0 +1,15 @@
+{
+  "name": "node_events",
+  "version": "1.0.0",
+  "description": "- Your objective is to create a server that can handle a post request to “/newsletter_signup”\r - You must read and decode the request body (which will contain a name and email), and append the contact information to a csv file (your newsletter list)\r - CONSTRAINT: When the client request is a “POST” method to the url “/newsletter_signup”, you will emit a ‘signup’ event. A listener associated with this event will handle your logic",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
